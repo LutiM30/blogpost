@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="/user/create" method="post">
+      <div class="form-field">
+        <label for="userName">Name</label>
+        <input type="string" name="userName" id="userName" />
+      </div>
+
+      <div class="form-field">
+        <label for="alias">username</label>
+        <input type="string" name="alias" id="alias" />
+      </div>
+
+      <div class="form-field">
+        <label for="userEmail">Email</label>
+        <input type="email" name="userEmail" id="userEmail" />
+      </div>
+
+      <div class="form-field">
+        <label for="password">Create a New password</label>
+        <input type="password" name="password" id="password" />
+      </div>
+      <div class="form-field">
+        <label for="cpassword">Confirm password </label>
+        <input type="password" name="cpassword" id="cpassword" />
+      </div>
+
+      <div class="form-field">
+        <input type="submit" name="submit" id="submit" />
+      </div>
+    </form>
+  </body>
+</html>
